@@ -9,3 +9,7 @@ Telethon made easy
 
 
 **`FREE PRODUCT - You are not authorized to resell this product as a product developed by yourself.`**
+
+## About coder
+### ⛈ [Telegram Channel](https://t.me/RefewDevOfficial) ⛈
+### 👨‍💻 [Telegram Contact](https://t.me/Refew) 👨‍💻
