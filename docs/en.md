@@ -64,7 +64,7 @@ Example:
      async def test(e):
         await e.respond("<b>EasyUserBot up and running!</b>", parse_mode="html")
 
-![You can find other explanations by clicking here!](https://docs.telethon.dev/en/latest/basic/quick-start.html)
+You can find other explanations on https://docs.telethon.dev
 
 ##### The base has only been tested on Windows10-64bit & Linux(Ubuntu18)
 
