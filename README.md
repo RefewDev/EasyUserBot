@@ -1,4 +1,4 @@
-# EasyUserBot
+# 🤩 EasyUserBot 🤩
 Telethon made easy
 
 ## Choose your language
