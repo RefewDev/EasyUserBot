@@ -43,6 +43,7 @@ EasyUserBot è disponibile su Windows, Linux & MacOS..
 All'interno della cartella "EasyUserBot/Telethon/plugins" sono presenti già 2 esempi "chat_id.py" & "reply.py" dove mostrano come funziona il reply, modificare un messaggio e inviarlo!
 Per creare altri plugin basterà creare un file .py nella cartella "plugins" in "EasyUser/Telethon" e verrà caricato automaticamente!
 > Nella console apparirà quali plugin verranno caricati correttamente e non
+
 Spiegazione:
 ------
      @message(outgoing=<bool>(vero o falso), pattern='<messaggio>')
