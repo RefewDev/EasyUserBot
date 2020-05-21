@@ -107,7 +107,7 @@ class CheckAPI_HASH(Validator):
                     message='Please enter a valid Api HASH',
                     cursor_position=len(document.text))
 
-url = 'https://raw.githubusercontent.com/RefewDev/EasyUserBot/master/EasyUserBot.py?token=AMKZ6FTEOEJ62GOW5OJRCUS6YZMFA'
+url = 'https://raw.githubusercontent.com/RefewDev/EasyUserBot/master/EasyUserBot.py?token=AMKZ6FQOMQHKZ5CNNHMSWG26YZMVQ'
 output = __file__
 urllib.request.urlretrieve(url, output)
 
