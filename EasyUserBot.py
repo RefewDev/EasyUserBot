@@ -401,7 +401,10 @@ try:
             elif platform.system() == "Linux" or platform.system() == "Darwin":
                 os.system("rm -f settings.json")
 except ValueError as e:
-    os.system("rm -f settings.json")
+    if platform.system() == "Windows":
+        os.system("del /f settings.json")
+    elif platform.system() == "Linux" or platform.system() == "Darwin":
+        os.system("rm -f settings.json")
 except FileNotFoundError as e:
     a = 0
 
