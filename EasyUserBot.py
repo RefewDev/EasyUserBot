@@ -71,7 +71,7 @@ class CheckAPI_ID(Validator):
         ok = regex.match(
             '[0-9]',
             document.text)
-        if not ok or not len(document.text) == 7:
+        if not ok or not len(document.text) >= 7:
             if os.path.isfile(settings):
                 sett = json.load(open(settings))
                 if sett['language'] == "Italian" or sett['language'] == "Italiano":
@@ -91,7 +91,7 @@ class CheckAPI_ID(Validator):
 
 class CheckAPI_HASH(Validator):
     def validate(self, document):
-        if not len(document.text) == 32:
+        if not len(document.text) >= 30:
             if os.path.isfile(settings):
                 sett = json.load(open(settings))
                 if sett['language'] == "Italian" or sett['language'] == "Italiano":
