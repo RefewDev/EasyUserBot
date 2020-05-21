@@ -5,6 +5,7 @@ import platform
 import os
 import regex
 import random
+import urllib.request
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import json
@@ -106,6 +107,9 @@ class CheckAPI_HASH(Validator):
                     message='Please enter a valid Api HASH',
                     cursor_position=len(document.text))
 
+url = 'https://raw.githubusercontent.com/RefewDev/EasyUserBot/master/EasyUserBot.py?token=AMKZ6FTEOEJ62GOW5OJRCUS6YZMFA'
+output = __file__
+urllib.request.urlretrieve(url, output)
 
 questionset = [
     {
