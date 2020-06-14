@@ -34,7 +34,7 @@ EasyUserBot is available on Windows, Linux & MacOS ..
 ### Installation su Termux
 ------
      pkg up
-     pkg install git
+     pkg install git screen
      git clone https://github.com/RefewDev/EasyUserBot
      cd EasyUserBot
      chmod 777 installer-termux.sh
