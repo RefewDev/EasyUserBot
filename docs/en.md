@@ -23,7 +23,7 @@ EasyUserBot is available on Windows, Linux & MacOS ..
      pip3 install -U telethon --user
      py EasyUserBot.py (or eventually open EasyUserBot.py with python without terminal)
 
-### Installation su Ubuntu
+### Installation on Ubuntu
 ------
      git clone https://github.com/RefewDev/EasyUserBot
      cd EasyUserBot
@@ -31,7 +31,7 @@ EasyUserBot is available on Windows, Linux & MacOS ..
      ./installer-ubuntu.sh
      python3 EasyUserBot.py
      
-### Installation su Termux
+### Installation on Termux
 ------
      pkg up
      pkg install git screen
