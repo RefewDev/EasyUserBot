@@ -28,8 +28,8 @@ async def main():
                 LOGS.info(module_name + " activated.")
             tot += 1
             enable += 1
-        except:
-            error += module_name
+        except Exception as err:
+            error += module_name + " - " + str(err)
             tot += 1
     if error:
         if lang == "Italian" or lang == "Italiano":
