@@ -16,8 +16,8 @@ EasyUserBot è disponibile su Windows, Linux & MacOS..
 ### Installazione su Windows
 #### E' necessario avere installato sul proprio computer python3
 ##### ![Puoi trovare una guida su come installare su windows 10 cliccando qui](https://phoenixnap.com/kb/how-to-install-python-3-windows)
+#### Scarica la cartella "EasyUserBot" da github (oppure clicca [qui](https://github.com/RefewDev/EasyUserBot/archive/refs/heads/master.zip))
 ------
-     Scarica la cartella "EasyUserBot" da github(oppure clicca [qui](https://github.com/RefewDev/EasyUserBot/archive/refs/heads/master.zip))
      Aprendo il prompt dei comandi recarsi nella cartella "EasyUserBot"(potete semplicemente aprire il terminale, trascinare la cartella "EasyUserBot" e cliccare invio)
      pip3 install --user -r requirements.txt
      pip3 install -U telethon --user
